@@ -1,0 +1,51 @@
+h2{
+    color: darkblue;
+}
+label{
+    font: bold 13px Arial;
+}
+label:last-child {
+    font: 13px Arial;
+}
+br+input{
+    width: 150px;
+    height: 15px;
+    font:  14px Arial;
+    padding-left: 2px;
+    border: 1px solid darkgray;
+}
+.button{
+    border-radius: 100px;
+    border: 2px;
+    background-color: red;
+    width: 140px;
+    height: 30px;
+    color: white;
+    font-size: 17px;
+    margin-top: 2px;
+}
+.photo{
+    float: left;
+    width: 250px;
+    height: 375px;
+}
+.form1{
+    background-color: white;
+    padding: 0px 15px 20px 30px;
+    width: 240px;
+    height: 360px;
+}
+.parent{
+    padding: 40px;
+    position: absolute;
+    z-index: 0;
+    background: url("depositphotos_27098687-stock-photo-caribbean-sea-and-wooden-platform.jpg");
+}
+a{
+    font:  13px Arial;
+    color: red;
+}
+div div div{
+    float: left;
+    margin-top: 13px
+}

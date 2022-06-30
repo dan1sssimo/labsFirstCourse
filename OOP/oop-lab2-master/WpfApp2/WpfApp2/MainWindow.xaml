@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d" Height="450" Width="800" MinWidth="300" MinHeight="300" MaxWidth="1000" MaxHeight="1000" Background="#FFF4E400" FontFamily="Arial" Title="Лабораторна робота №2. Завдання №2." Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,-6.4,-30" MinWidth="300" MinHeight="300" MaxWidth="1000" MaxHeight="1000">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="87*"/>
+            <ColumnDefinition Width="706*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BT" Content="Обрахувати" Grid.Column="1" HorizontalAlignment="Left" Margin="164,278,0,0" VerticalAlignment="Top" Width="149" FontFamily="Arial" FontSize="14" Height="45" Background="#FF17D3CF" Click="BT_Click"/>
+        <TextBox x:Name="a1" Grid.Column="1" Height="33" Margin="163.8,70,398.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
+        <Label Content="a=" Grid.Column="1" HorizontalAlignment="Left" Margin="81.8,70,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" Width="39" Height="33" Background="#FFAE9E9E"/>
+        <Label Content="b=&#xA;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="81.8,131,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" Width="39" Height="33" Background="#FFAE9E9E"/>
+        <Label Content="c=&#xA;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="81.8,181,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" Width="39" Height="33" Background="#FFAE9E9E"/>
+        <Label x:Name="l" Content="x=" Grid.Column="1" HorizontalAlignment="Left" Margin="81.8,236,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" Width="39" Height="33" Background="#FFAE9E9E"/>
+        <Label x:Name="l1" Content="x1=" Grid.Column="1" HorizontalAlignment="Left" Margin="82,328,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" Width="39" Height="33" Background="#FFAE9E9E"/>
+        <Label x:Name="l2" Content="x2=" Grid.Column="1" HorizontalAlignment="Left" Margin="82,366,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" Width="39" Height="33" Background="#FFAE9E9E"/>
+        <TextBox x:Name="b1" Grid.Column="1" Height="33" Margin="163.8,131,398.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
+        <TextBox x:Name="c1" Grid.Column="1" Height="33" Margin="163.8,181,398.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
+        <TextBox x:Name="xx" Grid.Column="1" Height="33" Margin="163.8,236,398.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
+        <TextBox x:Name="x11" Grid.Column="1" Height="33" Margin="164,328,398,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
+        <TextBox x:Name="x22" Grid.Column="1" Height="33" Margin="164,366,398,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
+        <Label Content="Савченко Д.П., гр. ІПЗ-20-4" Grid.Column="1" Margin="0,0,17,40" Background="#FF00D6FF" FontFamily="Arial" FontSize="14" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="187" Height="26" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>

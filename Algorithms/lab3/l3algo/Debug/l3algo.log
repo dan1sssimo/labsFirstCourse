@@ -1,0 +1,6 @@
+﻿  l3algo.cpp
+C:\Users\danil\source\repos\l3algo\l3algo\l3algo.cpp(5,20): warning C4215: нестандартное расширение: long float
+C:\Users\danil\source\repos\l3algo\l3algo\l3algo.cpp(10,5): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\danil\source\repos\l3algo\l3algo\l3algo.cpp(14,7): warning C4215: нестандартное расширение: long float
+C:\Users\danil\source\repos\l3algo\l3algo\l3algo.cpp(15,7): warning C4215: нестандартное расширение: long float
+  l3algo.vcxproj -> C:\Users\danil\source\repos\l3algo\Debug\l3algo.exe

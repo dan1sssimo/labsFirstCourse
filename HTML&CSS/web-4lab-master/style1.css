@@ -1,0 +1,36 @@
+p
+{
+    color: green;
+    text-align: center;
+}
+.doc_1
+{
+    color: red;
+}
+#doc_2
+{
+    color: purple;
+}
+.doc_3
+{
+    color: red;
+}
+div>a{
+    color: red;
+}
+li>a{
+    color: purple;
+}
+#main>li>a{
+    color: green;
+}
+ul>li>ul>li{
+    list-style-type: none;
+}
+#main>li:last-child>ul>li{
+    list-style-type: square;
+    text-decoration: none;
+}
+
+
+

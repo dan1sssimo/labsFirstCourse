@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+
+</style>
+<body>
+    <form oninput="result.value=(cm.value*2.2046).toFixed(2)" >
+        <fieldset oninput="result1.value=(cm.value/100).toFixed(2)">
+        <p >Введите ваш вес в кг
+            <input type="number" name="cm" autofocus></p>
+        <p> Ваш вес в фунтах: <output name="result">0</output></p>
+        Ваш вес в центнерах:<output name="result1">0</output>
+        </fieldset>
+    <fieldset oninput="c.value=a.valueAsNumber+b.valueAsNumber">
+        <h2>Введи 2 числа получи сумму</h2>
+        <input type="number" id="a"><strong><font size="5">+</font></strong>
+        <input type="number" id="b"><strong><font size="5">=</font></strong>
+        <strong><font size="5"> <output name="c" for="a b" ></output></font></strong>
+    </fieldset>
+    <fieldset oninput="aa.value=rg.value">
+        <p><h2>Сколько вы хотите заработать?</h2></p>
+        0
+        <input type="range"
+               min="0"
+               max="100"
+               step="1"
+               value="58"
+               name="rg"
+              >
+        100
+        <p style="color: blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<nbsp></nbsp><output name="aa" for="rg"></output></p>
+    </fieldset>
+<p></p>
+    <fieldset oninput="a1.value=b2.valueAsNumber*c2.valueAsNumber+(b2.value*c2.value*b3.valueAsNumber)">
+        <legend>Расчитай зп</legend>
+       <p>Количество часов <input type="number" id="b2"></p>
+        <p>Ставка &#8372<input type="number" id="c2"></p>
+        <p>Налог <input type="number" id="b3"></p>
+        Зарплата всего <strong>грн <output name="a1" for="b2 c2 b3"></output></strong>
+    </fieldset>
+   <input type="submit" value="Поехали">&nbsp<input type="reset" value="Чисто">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+H1+P{
+    font-size: 20px;
+}
+P>CODE{
+    color: red;
+}
+P:last-child>code{
+    color: purple;
+}

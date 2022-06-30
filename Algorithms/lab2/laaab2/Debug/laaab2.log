@@ -1,0 +1,10 @@
+﻿  laaab2.cpp
+C:\Users\danil\source\repos\laaab2\laaab2\laaab2.cpp(5,1): warning C4005: RAND_MAX: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(348): message : см. предыдущее определение "RAND_MAX"
+C:\Users\danil\source\repos\laaab2\laaab2\laaab2.cpp(33,17): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+C:\Users\danil\source\repos\laaab2\laaab2\laaab2.cpp(36,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\danil\source\repos\laaab2\laaab2\laaab2.cpp(45,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\danil\source\repos\laaab2\laaab2\laaab2.cpp(55,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\danil\source\repos\laaab2\laaab2\laaab2.cpp(62,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\danil\source\repos\laaab2\laaab2\laaab2.cpp(70,20): warning C4018: <: несоответствие типов со знаком и без знака
+  laaab2.vcxproj -> C:\Users\danil\source\repos\laaab2\Debug\laaab2.exe

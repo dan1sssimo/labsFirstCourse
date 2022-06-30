@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+   <hr>
+    <hr>
+    <hr>
+    <fieldset style="background-color: antiquewhite">
+        <legend style="color: red"><strong>Примітка</strong></legend>
+        <p>Ми будемо раді, якщо Ви поділитесь з нами своїми враженнями від відвідування ресторану <strong>«Сто грам»</strong>.</p>
+        Ваші коментарі дуже важливі та дають нам змогу з'ясувати побажання Гостей, реалізувати їх і підвищити якість обслуговування.
+    </fieldset>
+    <fieldset style="background-color: antiquewhite">
+        <legend style="color: red"><strong>Анкета</strong></legend>
+        <ol>
+            <li>
+                <label for="file">Завантаження анкети </label>
+
+                <progress id="file" max="100" value="75"></progress>
+            </li>
+            <li>
+                <label >Дата відвідування ресторану:</label > <input type="date" name="calendar" required>
+            </li>
+            <li>
+                <p><label >Офіціант, який Вас обслуговував: </label><input type="text" name="text" required placeholder="Ім'я офіціанта"></p>
+            </li>
+            <li>
+                <label > Введіть  свій номер телефону в форматі 2-xxx-xxx, де замість x
+                    повинна бути цифра:</label>
+                <input type="tel" pattern="2-[0-9]{3}-[0-9]{3}" placeholder="Номер телефону">
+            </li>
+            <li>
+                <p><label >Порядковий номер офіціанту в форматі 2-хх, де замість х повинна бути цифра: </label><input  pattern="2-[0-9]{2}" placeholder="Порядковий номер"></p>
+            </li>
+            <fieldset oninput="aa.value=rg.value">
+                 <legend style="color: green">Оцінка роботи офіціанта</legend>
+                <p><label >Оцініть роботу офіціанту від 0 до 100, де (0- погано, а 100- чудово)</label> <p>0<input type="range" min="0" max="100" step="1" value="58" name="rg">
+                    100</p>
+                <p> Оцінка <output name="aa" for="rg" style="color: blueviolet"></output></p>
+
+           </fieldset>
+            <li>
+                <p> <label >Вкажіть ваш email:</label > <input type="email" name="mail" placeholder="Ваш email" required autocomplete="off"></p>
+            </li>
+            <li>
+                <label>Розкажіть що Ви замовляли </label><textarea spellcheck="false" placeholder="Що ви замовляли?"></textarea>
+            </li>
+            <li>
+                <label>У який день тижня Ви відвідали ресторан?</label> <input list="days" placeholder="Дні тижня">
+                   <datalist id="days">
+                       <option value="Понеділок"></option>
+                       <option value="Вівторок"></option>
+                       <option value="Середа"></option>
+                       <option value="Четвер"></option>
+                       <option value="П'ятниця"></option>
+                   </datalist></p>
+            </li>
+            <ul>
+                <label for="anketa"><strong>Рівень пройденої анкети</strong></label>
+
+                <meter id="anketa"
+                       min="0" max="100"
+                       value="85">
+                    at 50/100
+                </meter>
+            </ul>
+        </ol>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input style="border-bottom-color: crimson" type="submit" value="Відправити"></td>&nbsp&nbsp<input style="border-bottom-color: crimson" type="reset" value="Очистити анкету">
+    </fieldset>
+<hr>
+    <hr>
+    <hr>
+</form>
+
+</body>
+</html>

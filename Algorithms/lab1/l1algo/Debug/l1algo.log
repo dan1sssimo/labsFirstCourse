@@ -1,0 +1,16 @@
+﻿  l1algo.cpp
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(28,13): warning C4477: "scanf_s": в строке форматирования "%hhd" требуется аргумент типа "signed char *", но вариативный аргумент "1" имеет тип "unsigned short *"
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(28,13): message : рекомендуется использовать "%hd" в строке форматирования
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(31,13): warning C4477: "scanf_s": в строке форматирования "%hhd" требуется аргумент типа "signed char *", но вариативный аргумент "1" имеет тип "unsigned short *"
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(31,13): message : рекомендуется использовать "%hd" в строке форматирования
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(40,13): warning C4477: "scanf_s": в строке форматирования "%hhd" требуется аргумент типа "signed char *", но вариативный аргумент "1" имеет тип "unsigned short *"
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(40,13): message : рекомендуется использовать "%hd" в строке форматирования
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(44,13): warning C4477: "scanf_s": в строке форматирования "%hhd" требуется аргумент типа "signed char *", но вариативный аргумент "1" имеет тип "unsigned short *"
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(44,13): message : рекомендуется использовать "%hd" в строке форматирования
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(48,13): warning C4477: "scanf_s": в строке форматирования "%hhd" требуется аргумент типа "signed char *", но вариативный аргумент "1" имеет тип "unsigned short *"
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(48,13): message : рекомендуется использовать "%hd" в строке форматирования
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(52,13): warning C4477: "scanf_s": в строке форматирования "%hhd" требуется аргумент типа "signed char *", но вариативный аргумент "1" имеет тип "unsigned short *"
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(52,13): message : рекомендуется использовать "%hd" в строке форматирования
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(56,13): warning C4477: "scanf_s": в строке форматирования "%hhd" требуется аргумент типа "signed char *", но вариативный аргумент "1" имеет тип "unsigned short *"
+C:\Users\danil\source\repos\l1algo\l1algo\l1algo.cpp(56,13): message : рекомендуется использовать "%hd" в строке форматирования
+  l1algo.vcxproj -> C:\Users\danil\source\repos\l1algo\Debug\l1algo.exe

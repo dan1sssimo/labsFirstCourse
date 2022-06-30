@@ -1,0 +1,51 @@
+TABLE {
+    border-collapse: collapse;
+    color: black;
+    font-size: 14px;
+    border-color: white;
+    text-align: center;
+}
+
+tr:nth-child(2n+1)
+{
+    background-color: #f1dada;
+}
+th:nth-child(5)
+{
+   background-color:  #4e211b;
+    border: none;
+}
+tr:nth-child(2n)
+{
+    background-color: #e4b7b6;
+}
+th:nth-child(2)
+{
+    background-color: #e4b7b1;
+    border: none;
+}
+th:nth-child(3)
+{
+    background-color: #cf7f75;
+    border: none;
+}
+th:nth-child(4)
+{
+    background-color: #9a4036;
+    border: none;
+}
+th{
+    color: white;
+}
+td:nth-child(1){
+    color:white;
+    background-color: #9a4036;
+}
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1.5px solid white; /* Параметры рамки */
+}
+th:nth-child(1)
+{
+    border: none;
+}

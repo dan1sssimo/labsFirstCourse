@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{7D257C48-92F4-4368-A41B-314455119C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsLibrary1", "WinFormsLibrary1\WinFormsLibrary1.csproj", "{2F15BF7C-B0CD-4ECD-9189-0ECE92529859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D257C48-92F4-4368-A41B-314455119C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D257C48-92F4-4368-A41B-314455119C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D257C48-92F4-4368-A41B-314455119C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D257C48-92F4-4368-A41B-314455119C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F15BF7C-B0CD-4ECD-9189-0ECE92529859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F15BF7C-B0CD-4ECD-9189-0ECE92529859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F15BF7C-B0CD-4ECD-9189-0ECE92529859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F15BF7C-B0CD-4ECD-9189-0ECE92529859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {444DD6E0-6470-4CBB-8E48-FA96993D99D9}
+	EndGlobalSection
+EndGlobal

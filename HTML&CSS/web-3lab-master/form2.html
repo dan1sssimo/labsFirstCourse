@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        TABLE {
+            width: 500px; /* Ширина таблицы */
+
+            background: white; /* Цвет фона таблицы */
+        }
+        TH {
+
+            color: black; /* Цвет текста */
+            text-align: left; /* Выравнивание по левому краю */
+            background: white;
+        }
+        TD, TH {
+            padding: 3px; /* Поля вокруг текста */
+        }
+        liness{
+            text-align: left;
+            width: 150px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<table cellspacing="0">
+    <form>
+    <tr >
+        <td width="130">Логін:</td>
+        <td ><label for="name"></label><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <td width="130">Пароль:</td>
+        <td><label for="password"></label><input type="password" id="password"></td>
+    </tr>
+    <tr>
+        <td width="130">Повторіть пароль:</td>
+        <td><label for="password"></label><input type="password" id="password2"></td>
+    </tr>
+    <tr>
+        <td width="130">Стать:</td>
+        <td><label for="status"><input type="radio" name="status" id="status">чоловік<input type="radio" name="status">жінка</label></td>
+    </tr>
+    <tr>
+        <td width="130">Вкажіть місто:</td>
+        <td><label for="city"></label>
+            <select multiple name="city" id="city" type="text">
+                <option>Житомир</option>
+                <option>Київ</option>
+                <option>Львів</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td width="130">Інтереси:</td>
+        <td><label for="hobby">
+            <input type="checkbox" name="hobby" id="hobby" type="checkbox"> футбол
+                <input type="checkbox"> шахи
+                <input type="checkbox"> малювання
+                <input type="checkbox"> музика
+            </label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2"><input type="reset" value="Очистити">&nbsp<input type="submit" value="Відправити"></td>
+    </tr>
+    </form>
+</table>
+</body>
+</html>

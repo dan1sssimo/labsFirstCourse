@@ -1,0 +1,45 @@
+div{
+    background-color: #f78011;
+    height: 500px;
+}
+li{
+    margin-bottom: 10px;
+    background-color:darkkhaki;
+    vertical-align: middle;
+    margin-right:20px;
+    margin-top: 10px;
+}
+a{
+    background-color: #dea671;
+}
+.list
+{
+    padding-top:8px;
+    padding-left:70px;
+    font-size: 75px;
+    font-family: "Times New Roman", sans-serif;
+    list-style-position: inside;
+    line-height: inherit;
+    margin-top: 10px;
+}
+#app{
+    list-style-image: url("iconfinder_apple_753485.png");
+}
+#kiwi{
+    list-style-image: url("iconfinder_fruit_kiwi_1898853.png");
+}
+#papaya{
+    list-style-image: url("iconfinder_fruit_mango_1898851.png");
+    padding-left:17px;
+
+}
+#straw{
+    list-style-image: url("iconfinder_fruit_strawberry_1898843.png");
+    padding-left:17px;
+}
+#garnet{
+    list-style-image: url("iconfinder_fruit_pomegranate_1898844.png");
+    background-size: 100%;
+    padding-left:15px;
+}
+

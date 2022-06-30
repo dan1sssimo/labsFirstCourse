@@ -1,0 +1,215 @@
+body{
+    background-color: #9bbcfe;
+}
+body>div>div:first-child{
+    font-size:50px;
+    color:white;
+    position:relative;
+    text-shadow:
+            1px 1px 0px #c4dbe2,
+            2px 2px 0px red,
+            3px 3px 0px darkred,
+            4px 4px 0px indianred,
+            5px 5px 0px palevioletred,
+            6px 6px 0px blue,
+            7px 7px 0px #6d97a3,
+            8px 8px 0px #618b98,
+            9px 9px 0px #56818e,
+            10px 10px 0px #4c7683,
+            15px 15px 25px rgba(0,0,0,.9);
+    transition: .5s ease-in-out;
+    width: 99.5%;
+    background: #074063;
+    text-align:center;
+    margin-bottom: 15px;
+}
+body>div>div>h6:after{
+    content:"_site"
+}
+body>div>div>h6:before{
+    content:"the_"
+}
+body>div>div>div{
+    background-color: whitesmoke;
+}
+.photo{
+    border-radius: 9%;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+#fotki{
+    display: flex;
+    flex-direction:row;
+}
+#ramkatop
+{
+    border-style:groove;
+    border-radius: 20px;
+}
+#photo1
+{
+    border-style:groove;
+    height: 800px;
+    width: 80%;
+    border-radius: 5%;
+    position: relative;
+}
+#photo1>.display>div:first-child{
+    width: 50%;
+    height:400px;
+    background-image: url("Безымянный.png");
+    background-size: 100% 100%;
+}
+#photo1>.display>div:last-child{
+    width: 50%;
+    height:400px;
+    background-image: url("Безымянный3.png");
+    background-size: 100% 100%;
+}
+#photo1>.display>div:nth-child(2){
+    width: 50%;
+    height:400px;
+    background-image: url("Безымянный1.png");
+    background-size: 100% 100%;
+}
+#photo1>.display>div:nth-child(3){
+    width: 50%;
+    height:400px;
+    background-image: url("Безымянный2.png");
+    background-size: 100% 100%;
+}
+#photo1>.display>div:first-child:hover{
+    transform: scale(1.5)  translate(16.5%,16%);
+}
+#photo1>.display:last-child>div:nth-child(2):hover{
+    transform: scale(1.5) translate(-16.5%,16%);
+}
+#photo1>.display>div:nth-child(3):hover{
+    transform: scale(1.5) translate(16.5%,-16%);
+}
+#photo1>.display>div:last-child:hover{
+    transform: scale(1.5) translate(-16.5%,-16%);
+}
+#bichnapanel>p{
+    font-size: 35px;
+    height: 750px;
+    width: 24.5%;
+    writing-mode:tb-rl;
+    text-align: center;
+    margin:  0 auto;
+    color: #efa74e;
+}
+#bichnapanel{
+    background-color: white;
+    width:20%;
+    box-shadow: inset 27px 30px 20px 5px #efa74e;
+    border-radius: 50px ;
+    border-style:groove;
+}
+.textblock{
+    height:350px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    text-align:justify;
+    margin-top: 10px;
+}
+.textblock>div:first-child{
+    overflow: scroll;
+    height: 345px;
+    padding-left:10px;
+    padding-right:5px;
+    border-radius: 50px 0px 0px 0px ;
+    border-style:groove;
+}
+.textblock>div:last-child{
+    overflow: scroll;
+    height: 345px;
+    padding-left:10px;
+    padding-right:5px;
+    background-color: white;
+    border-radius: 50px 0px 0px 0px ;
+    border-style:groove;
+}
+.textblock>div:nth-child(2){
+    overflow: scroll;
+    height: 345px;
+    padding-left:10px;
+    padding-right:5px;
+    border-radius: 50px 0px 0px 0px ;
+    border-style:groove;
+}
+#icons{
+    text-transform: uppercase;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #074063;
+    width: auto;
+}
+#footer
+{
+    margin-top: 10px;
+    border-style:groove;
+    height:400px;
+    width:99.5%;
+    border-color: #9dbdfe;
+    background-color: #074063;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+h3>a:hover{
+    color:red;
+}
+input{
+    border-radius: 20px;
+    height: 50px;
+}
+#footer>h1{
+    font-size: 50px;
+}
+#icons>h3
+{
+    padding-left:20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#menu {
+    width: 50px;
+    height:50px;
+    padding-bottom: 5px;
+    text-align:center;
+    font-size:15px;
+    border-radius:50%;
+    position:fixed;
+    left: 80%;
+    top: 1.5%;
+    background-color: black;
+    color: white;
+}
+#menu:hover:after
+{
+    content:"US IN TELEGRAM";
+}
+#menu:hover
+{
+    color:white;
+    width: 100px;
+    height: 100px;
+    border-radius:20px;
+    left: 85%;
+}
+@media screen  and (max-width:768px) {
+    .textblock {
+        display:flex;
+        flex-direction:column;
+    }
+}

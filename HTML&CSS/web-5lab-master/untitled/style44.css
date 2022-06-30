@@ -1,0 +1,33 @@
+table tr td label input
+{
+    background-color:#f9fbbb;
+}
+table tr:nth-child(2) td:nth-child(2) label input
+{
+    background-color: #f9c9eb;
+}
+table tr:nth-child(3) td:nth-child(2) label input
+{
+    background-color: #f9c9eb;
+}
+table tr:nth-child(7) td:nth-child(2) label select
+{
+    background-color: #c4c0f6;
+}
+table tr:nth-child(8) td:nth-child(2) label textarea
+{
+    background-color: #c6ffc5;
+    height: 100px;
+}
+table tr:nth-child(10) td:nth-child(2) label input:first-child
+{
+    background-color: #abf1a5;
+}
+table tr:nth-child(10) td:nth-child(2) label input:last-child
+{
+    background-color: #fe8f97;
+}
+table tr:nth-child(9) td:nth-child(2) label p
+{
+    margin-left: -15px;
+}

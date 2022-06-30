@@ -1,0 +1,7 @@
+div {
+    width: 1280px;
+    height: 936px;
+    background-image: url(1.png) , url(4.png), url(2.png),url(3.png),url(5.png),url(6.png),url(0.png);
+    background-repeat: no-repeat;
+    background-position: 0cm 100% , 23cm 80%, 25cm 70%,20cm 67%,7cm 56% ,6cm 25%,center;
+}
